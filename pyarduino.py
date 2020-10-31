@@ -13,16 +13,13 @@ def led_on():
 def led_off():
     arduinoData.write('0')
 
-
-
-
 """
 while 1:
     ArduinoSerial.write(b'1')
-    print('ON')
+    print('LED On')
     time.sleep(1)
     ArduinoSerial.write(b'0')
-    print('OFF')
+    print('LED Off')
     time.sleep(1)
 """
 
