@@ -3,7 +3,8 @@
 import serial
 import time
 
-ArduinoSerial = serial.Serial('com4',baudrate=9600, timeout=2)
+ArduinoSerial = serial.Serial('com4',baudrate=9600, timeout=2) //Use 9600 only to avoid conflict
+
 time.sleep(2)
 
 def led_on():
