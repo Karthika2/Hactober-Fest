@@ -1,7 +1,7 @@
+#Python Code for Running arduino
+
 import serial
 import time
-
-
 
 ArduinoSerial = serial.Serial('com4',baudrate=9600, timeout=2)
 time.sleep(2)
